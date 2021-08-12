@@ -51,9 +51,6 @@ Counter.defaultProps = {
   count: 0
 }
 
-// Create three methods: handleAddOne, handleMinusOne, handleReset
-// use console.log to print the method name and
-// wire up onClick & bind in the constructor
 ReactDOM.render(<Counter count={5}/>, document.getElementById('root'));
 export default Counter;
 
