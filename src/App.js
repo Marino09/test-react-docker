@@ -46,7 +46,7 @@ class Counter extends React.Component {
       );
   }
 }
-
+//default counter prop
 Counter.defaultProps = {
   count: 0
 }
